@@ -1,0 +1,76 @@
+* {
+  background-color: #EFF8F7;
+}
+
+.registration-container {
+  background-color: #EFF8F7;
+  height: 90vh;
+  width: 45vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; 
+  padding: 20px;
+  font-family: 'Rubik', sans-serif; 
+}
+
+.logo {
+  align-self: center; 
+  margin-bottom: 60px;
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.back-arrow {
+  top: 10px;
+  left: 10px;
+  margin-bottom: -40px;
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: #000; 
+}
+
+.question {
+  font-weight: bold;
+}
+
+.input-field {
+  width: 80%; 
+  border: none;
+  border-bottom: 2px solid black;
+  background: transparent;
+  margin-bottom: 20px;
+  padding: 5px;
+  font-size: 1rem;
+  outline: none;
+  direction: rtl;
+}
+
+
+.phone-input {
+  width: 30%; 
+}
+
+.password-input {
+  width: 100%;
+}
+
+.password-requirements {
+  font-size: 0.8rem; 
+  margin-bottom: 20px;
+  margin-top: 0px;
+  direction: rtl;
+}
+
+.next-button {
+  background-color: #3AB54A;
+  color: #EFF8F7;
+  width: 22vh;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  align-self: center; 
+  margin-top: 20px;
+  outline: none;
+}
